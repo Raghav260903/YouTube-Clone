@@ -26,6 +26,36 @@
     height: 94px;
     margin-left: 4px;
 }
+.youtube-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.youtube-logo-container .tooltip{
+    font-family: Roboto,Arial;
+    position: absolute;
+    border-style: solid;
+    border-color: gray;
+    border-bottom: none;
+    background-color:rgb(29, 29, 29);
+    color: white;
+    margin-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -1px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    pointer-events: none;
+    white-space: nowrap;                                                                                                                                                ;
+}
+.youtube-logo-container:hover .tooltip{
+    opacity: 1;
+}
 .middle-section{
     flex: 1;
     margin-left: 70px;
