@@ -47,7 +47,7 @@
     padding-right: 8px;
     border-radius: 2px;
     font-size: 12px;
-    bottom: -1px;
+    bottom: 3px;
     opacity: 0;
     transition: opacity 0.1s;
     pointer-events: none;
